@@ -1,16 +1,53 @@
-h1{
-	font-family: "Open Sans Condensed", sans-serif;
-	color: #FFFFFF;
-	text-align: center;
-	background-color: #851944;
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
 }
-h2{
-	font-family: "Open Sans Condensed", sans-serif;
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
 }
+
+main h1 {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+}
+
 p {
-	text-align: justify;
+    text-align: justify;
 }
-body{
-	font-family: "Crimson Text", serif;
-	background-color: #F2FFFC;
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+nav a{
+    color: #F2FFFC;
+}
+	
+ul {
+  color: pink;
+}
+ul li a {
+  color: inherit;
+}
+
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
 }
